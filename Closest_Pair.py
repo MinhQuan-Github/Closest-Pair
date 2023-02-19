@@ -94,7 +94,7 @@ class ClosestPair:
         plt.scatter(a.x, a.y, c='red')
         plt.scatter(b.x, b.y, c='red')
         plt.plot([a.x, b.x], [a.y, b.y])
-        path = 'Closest_Pair/Closest_Pair_Result.png'
+        path = 'Closest_Pair_Result.png'
         plt.savefig(path)
         plt.show()
 
